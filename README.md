@@ -13,6 +13,7 @@ We recommend using Anaconda with the following commands:
 ```
 conda create -n GST python=3.8
 conda activate GST
+conda install pytorch==1.11.0 torchvision==0.12.0 cudatoolkit=10.2 -c pytorch
 pip install -r requirements.txt
 ```
 
